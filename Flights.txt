@@ -1,0 +1,11 @@
+San Francisco, Boston, SB3456, 02:00, 05:00
+Boston, Washington D.C., BW7890, 06:00, 07:30
+New York, Los Angeles, LA1234, 08:00, 11:00
+New York, Los Angeles, NYLA5678, 08:00, 11:00
+Washington D.C., Seattle, WS1235, 08:30, 11:30
+Seattle, Denver, SD4567, 12:30, 14:00
+Chicago, Miami, CM9101, 15:00, 18:00
+Denver, Atlanta, DA8910, 15:30, 17:00
+Miami, Dallas, MD2345, 19:00, 21:30
+Dammam, Jeddah, jy1234, 20:00, 22:00
+Dallas, San Francisco, DS6789, 22:00, 01:00

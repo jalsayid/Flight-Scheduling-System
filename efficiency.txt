@@ -1,0 +1,41 @@
+Method: addFlight
+Time Complexity: O(n)
+Explanation: The addFlight method inserts a new flight into the AVL tree. 
+The AVL tree is a self-balancing binary search tree, which ensures that the tree remains balanced after each insertion. 
+The time complexity of inserting a node into an AVL tree is logarithmic in the number of nodes and the time complexity
+to check if a flight already exist is O(n) in the worst case since its ordered by departure Time if the 
+departure Times are not equal, resulting in a time complexity of O(n) for this method.
+
+Method: removeFlight
+Time Complexity: O(n)
+Explanation: The removeFlight method removes a flight from the AVL tree based on its flight number. 
+The AVL tree is a self-balancing binary search tree, which ensures that the tree remains balanced after each deletion. 
+The time complexity of deleting a node from an AVL tree is logarithmic in the number of nodes and to find the 
+flight with given flight number its O(n), resulting in a time 
+complexity of O(n) for this method.
+
+Method: searchFlights
+Time Complexity: O(n + m)
+Explanation: The searchFlights method searches for flights based on the origin and destination cities.
+It iterates over all flights in the AVL tree and checks if each flight matches the given criteria. 
+In the worst case, all flights need to be examined. Also to convert the SLL to an Array
+the complexity is O(m) where m is the number of flights with the given origin and destination 
+cities, resulting in a time complexity of O(n + m) for this method.
+
+Method: getFlightDetails
+Time Complexity: O(n)
+Explanation: The getFlightDetails method retrieves the details of a flight based on its flight number. 
+It performs a binary search in the AVL tree to find the flight with the given flight number. 
+The time complexity of the search is O(n), resulting in a time complexity of O(n) for this method.
+
+Method: getFlightsSummary
+Time Complexity: O(n)
+Explanation: The getFlightsSummary method retrieves a summary of all flights in the AVL tree. 
+It iterates over all flights and collects their details. Since it needs to process all flights, the time 
+complexity is O(n) for this method.
+
+Method: saveFlightSchedule
+Time Complexity: O(n)
+Explanation: The saveFlightSchedule method saves the flight schedule to a file. 
+It iterates over all flights and writes their details to the file. Since it needs to process all flights, 
+the time complexity is O(n) for this method.
